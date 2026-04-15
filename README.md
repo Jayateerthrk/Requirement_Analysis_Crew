@@ -122,7 +122,7 @@ RequirementsAgent/
 Press Win + R, type cmd, press Enter.
 
 ```cmd
-cd D:\Jay\RequirementsAgent
+cd <your working folder>
 ```
 
 ### Step 2 — Create virtual environment
