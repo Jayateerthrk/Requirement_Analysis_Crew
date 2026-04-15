@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "PROJ-102",
+    "title": "File upload for documents",
+    "dor_status": "NOT_READY",
+    "readiness_score": 40,
+    "overall_risk_level": "HIGH",
+    "ambiguity_score": 70,
+    "key_blockers": [
+      "Clear and measurable acceptance criteria, including file type and size limitations, and upload success and failure scenarios",
+      "Clear definition of the role or type of user, including permissions and context",
+      "Consideration of error scenarios, such as upload failures or file corruption, and how the system will handle them"
+    ],
+    "key_risks": [
+      "DELIVERY: Missing estimates or unclear scope due to high ambiguity score and lack of clear acceptance criteria - mitigate by revising the user story with more specific and measurable acceptance criteria",
+      "TECHNICAL: Integration points with third-party systems or APIs for file storage and access - mitigate by researching and evaluating potential third-party systems or APIs",
+      "TECHNICAL: Security concerns due to file uploads and storage - mitigate by developing a plan to ensure the security of file uploads and storage"
+    ],
+    "immediate_actions": [
+      "Product Owner to revise the user story with clear and measurable acceptance criteria",
+      "Business Analyst to research and evaluate potential third-party systems or APIs for file storage and access",
+      "Development Team to develop a plan to ensure the security of file uploads and storage"
+    ],
+    "tpm_summary": "The file upload for documents story is not ready for sprint planning due to high ambiguity and risk. The story requires clear and measurable acceptance criteria, a clear definition of the role or type of user, and consideration of error scenarios. The Product Owner and Business Analyst need to take immediate action to revise the story and mitigate potential technical and delivery risks."
+  }
+]

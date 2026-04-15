@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Requirements Crew Report — sprint</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 24px;
+      color: #333;
+    }
+    .container { max-width: 860px; margin: 0 auto; }
+    h1 { font-size: 24px; font-weight: 700; color: #1a1a1a; margin: 0; }
+    .header {
+      background: #fff;
+      border: 1px solid #dde3ec;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .meta {
+      font-size: 13px;
+      color: #888;
+      margin-top: 6px;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .container { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>TPM Requirements Crew Report</h1>
+      <div class="meta">
+        Sprint: <strong>sprint</strong> &nbsp;|&nbsp;
+        Generated: <strong>15 Apr 2026, 16:58</strong> &nbsp;|&nbsp;
+        Stories analysed: <strong>2</strong>
+      </div>
+    </div>
+
+    
+    <div style="background:#fff;border:1px solid #dde3ec;border-radius:12px;
+                padding:24px;margin-bottom:24px;
+                box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <h2 style="margin:0 0 16px;font-size:18px;font-weight:600;color:#1a1a1a;">
+        Sprint Summary</h2>
+
+      <!-- Stat pills -->
+      <div style="display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap;">
+        <div style="background:#e6f4ed;color:#1a7f4b;padding:8px 16px;
+                    border-radius:8px;font-weight:600;">
+          0 Ready</div>
+        <div style="background:#fef8e7;color:#92650a;padding:8px 16px;
+                    border-radius:8px;font-weight:600;">
+          0 Conditional</div>
+        <div style="background:#fdf0ee;color:#c0392b;padding:8px 16px;
+                    border-radius:8px;font-weight:600;">
+          2 Not Ready</div>
+        <div style="background:#f0f0f0;color:#555;padding:8px 16px;
+                    border-radius:8px;font-weight:600;">
+          2 Total</div>
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;font-size:14px;">
+        <thead>
+          <tr style="background:#f7f9fc;border-bottom:2px solid #dde3ec;">
+            <th style="padding:10px 12px;text-align:left;color:#555;
+                       font-weight:600;">Story ID</th>
+            <th style="padding:10px 12px;text-align:left;color:#555;
+                       font-weight:600;">Title</th>
+            <th style="padding:10px 12px;text-align:left;color:#555;
+                       font-weight:600;">DoR Status</th>
+            <th style="padding:10px 12px;text-align:left;color:#555;
+                       font-weight:600;">Risk</th>
+            <th style="padding:10px 12px;text-align:center;color:#555;
+                       font-weight:600;">Ambiguity</th>
+            <th style="padding:10px 12px;text-align:center;color:#555;
+                       font-weight:600;">Readiness</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 12px;font-weight:600;color:#333;">
+            PROJ-101</td>
+          <td style="padding:10px 12px;color:#444;">
+            User login with social auth</td>
+          <td style="padding:10px 12px;">
+            <span style="background:#fdf0ee;color:#c0392b;padding:2px 8px;
+                         border-radius:4px;font-size:12px;font-weight:600;">
+              NOT_READY</span></td>
+          <td style="padding:10px 12px;">
+            <span style="background:#fdf0ee;color:#c0392b;padding:2px 8px;
+                         border-radius:4px;font-size:12px;font-weight:600;">
+              HIGH</span></td>
+          <td style="padding:10px 12px;text-align:center;color:#555;">
+            73</td>
+          <td style="padding:10px 12px;text-align:center;font-weight:600;color:#333;">
+            42/100</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:10px 12px;font-weight:600;color:#333;">
+            PROJ-102</td>
+          <td style="padding:10px 12px;color:#444;">
+            File upload for documents</td>
+          <td style="padding:10px 12px;">
+            <span style="background:#fdf0ee;color:#c0392b;padding:2px 8px;
+                         border-radius:4px;font-size:12px;font-weight:600;">
+              NOT_READY</span></td>
+          <td style="padding:10px 12px;">
+            <span style="background:#fdf0ee;color:#c0392b;padding:2px 8px;
+                         border-radius:4px;font-size:12px;font-weight:600;">
+              HIGH</span></td>
+          <td style="padding:10px 12px;text-align:center;color:#555;">
+            70</td>
+          <td style="padding:10px 12px;text-align:center;font-weight:600;color:#333;">
+            40/100</td>
+        </tr></tbody>
+      </table>
+    </div>
+    
+    <div style="background:#fff;border:1px solid #dde3ec;border-radius:12px;
+                margin:20px 0;padding:24px;box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+
+      <!-- Story header -->
+      <div style="display:flex;align-items:flex-start;
+                  justify-content:space-between;flex-wrap:wrap;gap:8px;
+                  margin-bottom:16px;padding-bottom:16px;
+                  border-bottom:1px solid #eee;">
+        <div>
+          <span style="font-size:12px;color:#888;font-weight:500;">PROJ-101</span>
+          <h2 style="margin:4px 0 0;font-size:18px;font-weight:600;
+                     color:#1a1a1a;">User login with social auth</h2>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          <span style="background:#fdf0ee;color:#c0392b;padding:3px 10px;border-radius:4px;font-weight:600;font-size:13px;">NOT_READY</span>
+          <span style="background:#f0f0f0;color:#444;padding:3px 10px;border-radius:4px;font-weight:600;font-size:13px;">HIGH RISK</span>
+        </div>
+      </div>
+
+      <!-- Scores -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+        <div>
+          <div style="font-size:12px;color:#888;margin-bottom:4px;font-weight:500;">
+            READINESS SCORE</div>
+          
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="flex:1;background:#e8e8e8;border-radius:4px;height:10px;">
+        <div style="width:42%;background:#c0392b;border-radius:4px;height:10px;"></div>
+      </div>
+      <span style="font-weight:600;font-size:14px;min-width:36px;">42/100</span>
+    </div>
+        </div>
+        <div>
+          <div style="font-size:12px;color:#888;margin-bottom:4px;font-weight:500;">
+            AMBIGUITY SCORE</div>
+          
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="flex:1;background:#e8e8e8;border-radius:4px;height:10px;">
+        <div style="width:73%;background:#c0392b;border-radius:4px;height:10px;"></div>
+      </div>
+      <span style="font-weight:600;font-size:14px;min-width:36px;">73/100</span>
+    </div>
+        </div>
+      </div>
+
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #c0392b;
+                background:#c0392b18;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#c0392b;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Key Blockers</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">✗ Measurable and concrete acceptance criteria are needed, such as 'The login process should complete within 2 seconds' and 'The system should display an error message when invalid credentials are entered'</li><li style="margin:6px 0;line-height:1.5;">✗ Clear definition of the user role is needed, such as 'registered user with a valid social media account'</li><li style="margin:6px 0;line-height:1.5;">✗ Acceptance criteria that describe expected behavior for error paths are needed, such as login failure scenarios and error handling</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #92650a;
+                background:#92650a18;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#92650a;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Key Risks</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">⚠ DELIVERY risk: Missing estimates or unclear scope due to vague qualifiers and undefined actors - Mitigation: Review and refine the user story to include measurable language and clear definitions of actors</li><li style="margin:6px 0;line-height:1.5;">⚠ TECHNICAL risk: Integration points with social media APIs for authentication - Mitigation: Conduct thorough testing of social media API integrations, including error handling and boundary cases</li><li style="margin:6px 0;line-height:1.5;">⚠ TECHNICAL risk: Security concerns related to handling user authentication data - Mitigation: Implement robust security measures to protect user authentication data, including encryption and secure storage</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #185FA5;
+                background:#185FA518;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#185FA5;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Immediate Actions</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">→ The Product Owner needs to refine the user story to include measurable language and clear definitions of actors</li><li style="margin:6px 0;line-height:1.5;">→ The BA needs to establish a clear understanding of dependencies on social media APIs and develop mitigation plans for potential API changes or outages</li><li style="margin:6px 0;line-height:1.5;">→ The Development Team needs to conduct thorough testing of social media API integrations, including error handling and boundary cases</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;background:#f7f9fc;
+                border-radius:8px;border:1px solid #dde3ec;">
+      <div style="font-weight:600;font-size:13px;color:#555;
+                  margin-bottom:6px;text-transform:uppercase;
+                  letter-spacing:0.5px;">TPM Summary</div>
+      <p style="margin:0;line-height:1.6;color:#333;">The user story for social media authentication is not ready for the sprint due to high ambiguity and risk levels. The story needs refinement to include measurable language and clear definitions of actors. The team must also establish a clear understanding of dependencies on social media APIs and develop mitigation plans for potential API changes or outages. The Development Team needs to conduct thorough testing of social media API integrations to ensure a smooth login process.</p>
+    </div>
+    </div>
+    <div style="background:#fff;border:1px solid #dde3ec;border-radius:12px;
+                margin:20px 0;padding:24px;box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+
+      <!-- Story header -->
+      <div style="display:flex;align-items:flex-start;
+                  justify-content:space-between;flex-wrap:wrap;gap:8px;
+                  margin-bottom:16px;padding-bottom:16px;
+                  border-bottom:1px solid #eee;">
+        <div>
+          <span style="font-size:12px;color:#888;font-weight:500;">PROJ-102</span>
+          <h2 style="margin:4px 0 0;font-size:18px;font-weight:600;
+                     color:#1a1a1a;">File upload for documents</h2>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          <span style="background:#fdf0ee;color:#c0392b;padding:3px 10px;border-radius:4px;font-weight:600;font-size:13px;">NOT_READY</span>
+          <span style="background:#f0f0f0;color:#444;padding:3px 10px;border-radius:4px;font-weight:600;font-size:13px;">HIGH RISK</span>
+        </div>
+      </div>
+
+      <!-- Scores -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+        <div>
+          <div style="font-size:12px;color:#888;margin-bottom:4px;font-weight:500;">
+            READINESS SCORE</div>
+          
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="flex:1;background:#e8e8e8;border-radius:4px;height:10px;">
+        <div style="width:40%;background:#c0392b;border-radius:4px;height:10px;"></div>
+      </div>
+      <span style="font-weight:600;font-size:14px;min-width:36px;">40/100</span>
+    </div>
+        </div>
+        <div>
+          <div style="font-size:12px;color:#888;margin-bottom:4px;font-weight:500;">
+            AMBIGUITY SCORE</div>
+          
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="flex:1;background:#e8e8e8;border-radius:4px;height:10px;">
+        <div style="width:70%;background:#c0392b;border-radius:4px;height:10px;"></div>
+      </div>
+      <span style="font-weight:600;font-size:14px;min-width:36px;">70/100</span>
+    </div>
+        </div>
+      </div>
+
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #c0392b;
+                background:#c0392b18;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#c0392b;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Key Blockers</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">✗ Specify the role or type of user, e.g., 'As a logged-in user with a valid account'</li><li style="margin:6px 0;line-height:1.5;">✗ Add specific and measurable acceptance criteria, e.g., 'User can successfully upload a file of up to 10MB in size within 30 seconds'</li><li style="margin:6px 0;line-height:1.5;">✗ Include error scenarios, such as upload failure or file corruption, in the acceptance criteria</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #92650a;
+                background:#92650a18;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#92650a;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Key Risks</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">⚠ DELIVERY: Missing specific estimates or unclear scope due to high ambiguity score and lack of detailed acceptance criteria - Mitigation: Conduct a thorough review of the story and rewrite it with more specific and measurable language to reduce ambiguity</li><li style="margin:6px 0;line-height:1.5;">⚠ TECHNICAL: Integration points with potential third-party systems for file upload and storage, and security concerns around file handling - Mitigation: Research and test integration with third-party systems, and implement security best practices for file handling and storage</li><li style="margin:6px 0;line-height:1.5;">⚠ BUSINESS: User impact if file upload feature ships broken, resulting in frustration and potential loss of trust - Mitigation: Implement thorough testing, including user acceptance testing, to ensure the feature meets user needs and is reliable</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;border-left:4px solid #185FA5;
+                background:#185FA518;border-radius:0 8px 8px 0;">
+      <div style="font-weight:600;font-size:14px;color:#185FA5;
+                  margin-bottom:8px;text-transform:uppercase;
+                  letter-spacing:0.5px;">Immediate Actions</div>
+      <ul style="margin:0;padding:0;list-style:none;"><li style="margin:6px 0;line-height:1.5;">→ Conduct a thorough review of the story and rewrite it with more specific and measurable language to reduce ambiguity</li><li style="margin:6px 0;line-height:1.5;">→ Engage with dependent teams, such as infrastructure and security teams, to ensure alignment and availability of necessary resources</li><li style="margin:6px 0;line-height:1.5;">→ Provide detailed estimates or sizing to ensure the story is estimable</li></ul>
+    </div>
+      
+    <div style="margin:16px 0;padding:16px;background:#f7f9fc;
+                border-radius:8px;border:1px solid #dde3ec;">
+      <div style="font-weight:600;font-size:13px;color:#555;
+                  margin-bottom:6px;text-transform:uppercase;
+                  letter-spacing:0.5px;">TPM Summary</div>
+      <p style="margin:0;line-height:1.6;color:#333;">The file upload story has high ambiguity and risk due to unclear scope and missing acceptance criteria. To proceed, the team must conduct a thorough review, address identified blockers, and rewrite the story with more specific language. This will ensure the feature is testable, estimable, and can be delivered with minimal risk.</p>
+    </div>
+    </div>
+
+    <div style="text-align:center;color:#aaa;font-size:12px;
+                margin-top:32px;padding-bottom:24px;">
+      Generated by TPM Requirements Crew · CrewAI + Groq
+    </div>
+
+  </div>
+</body>
+</html>

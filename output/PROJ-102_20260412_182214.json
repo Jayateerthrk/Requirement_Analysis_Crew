@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "PROJ-102",
+    "title": "File upload for documents",
+    "dor_status": "NOT_READY",
+    "readiness_score": 40,
+    "overall_risk_level": "MEDIUM",
+    "ambiguity_score": 60,
+    "key_blockers": [
+      "Specify measurable acceptance criteria, including file types, sizes, and formats that can be uploaded",
+      "Clarify the role of the registered user, including permissions and context",
+      "Specify what happens if the upload fails or if the user does not have permission to access the uploaded files"
+    ],
+    "key_risks": [
+      "DELIVERY: Missing estimates or unclear scope due to undefined file types, sizes, and formats - Mitigation: Clarify file upload criteria and acceptance criteria to ensure clear scope and estimates",
+      "TECHNICAL: Integration points with third-party systems or APIs for file storage and retrieval - Mitigation: Research and validate integration with existing file storage systems or APIs, and allocate time for testing and debugging",
+      "BUSINESS: User impact if feature ships broken, resulting in data loss or corruption - Mitigation: Implement thorough testing and quality assurance, including user acceptance testing, to ensure feature works as expected"
+    ],
+    "immediate_actions": [
+      "BA/PO to clarify the role of the registered user, including permissions and context",
+      "BA/PO to specify measurable acceptance criteria, including file types, sizes, and formats that can be uploaded",
+      "Development team to research and validate integration with existing file storage systems or APIs"
+    ],
+    "tpm_summary": "The user story for file upload is not ready for sprint entry due to medium ambiguity and several key blockers. The team needs to clarify the role of the registered user, specify measurable acceptance criteria, and address error handling and storage constraints. To mitigate risks, the team should prioritize clarifying scope and estimates, validating integration with existing systems, and ensuring thorough testing and quality assurance."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "PROJ-101",
+    "title": "User login with social auth",
+    "dor_status": "NOT_READY",
+    "readiness_score": 42,
+    "overall_risk_level": "HIGH",
+    "ambiguity_score": 73,
+    "key_blockers": [
+      "Replace ambiguous phrases 'quickly' and 'fast' with measurable criteria such as 'within 2 seconds' and 'within 1 second'",
+      "Add acceptance criteria for error scenarios such as 'Login should display an error message within 1 second if the credentials are invalid'",
+      "Define the user role clearly, such as 'registered user'"
+    ],
+    "key_risks": [
+      "DELIVERY risk: Missing estimates or unclear scope due to ambiguous phrases and missing testable conditions - mitigate by refining the user story",
+      "TECHNICAL risk: Integration points with third-party social media authentication systems or APIs - mitigate by developing a plan for integration",
+      "BUSINESS risk: User impact if feature ships broken, resulting in frustrated users and potential loss of trust - mitigate by developing a comprehensive testing plan"
+    ],
+    "immediate_actions": [
+      "BA/PO to refine the user story by replacing ambiguous phrases with measurable criteria",
+      "BA/PO to add acceptance criteria for error scenarios and boundary conditions",
+      "BA/PO to develop a comprehensive plan for integration, testing, and security"
+    ],
+    "tpm_summary": "The user story for social media login is not ready for sprint planning due to ambiguous phrases and missing testable conditions. The team needs to refine the story by replacing ambiguous phrases with measurable criteria and adding acceptance criteria for error scenarios and boundary conditions. The team should also develop a comprehensive plan for integration, testing, and security to mitigate the identified risks."
+  }
+]

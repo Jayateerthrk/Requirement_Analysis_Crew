@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "PROJ-103",
+    "title": "Export user data",
+    "dor_status": "NOT_READY",
+    "readiness_score": 40,
+    "overall_risk_level": "HIGH",
+    "ambiguity_score": 67,
+    "key_blockers": [
+      "Clear and measurable acceptance criteria, such as specific data format and data size limits are needed",
+      "Clear definition of the role or type of user, such as 'logged-in user' is needed",
+      "Definition of error handling scenarios, such as cases where user data is not available or export fails is needed"
+    ],
+    "key_risks": [
+      "DELIVERY risk: Missing clear estimates or unclear scope due to vague acceptance criteria and undefined actor, mitigation: Clarify acceptance criteria and define specific data format",
+      "TECHNICAL risk: Integration points with potential third-party systems or APIs for data export, mitigation: Research and identify potential integration points",
+      "TECHNICAL risk: Performance concerns due to lack of data size limits, mitigation: Define and implement data size limits"
+    ],
+    "immediate_actions": [
+      "The BA/PO must clarify the acceptance criteria and define specific data format",
+      "The BA/PO must define the type of user and identify the role",
+      "The team must define and implement error handling scenarios"
+    ],
+    "tpm_summary": "The Export user data story is not ready for the sprint due to high ambiguity and lack of clear acceptance criteria. The team needs to clarify the acceptance criteria, define specific data format, and identify the type of user to ensure clear understanding of the requirements. The story poses significant delivery, technical, and business risks that need to be mitigated before proceeding."
+  }
+]

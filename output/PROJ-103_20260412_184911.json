@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "PROJ-103",
+    "title": "Export user data",
+    "dor_status": "NOT_READY",
+    "readiness_score": 40,
+    "overall_risk_level": "HIGH",
+    "ambiguity_score": 73,
+    "key_blockers": [
+      "Clear acceptance criteria are missing, such as 'User can download their data within 5 seconds of clicking the export button' and 'Data should be exported in CSV or JSON format'",
+      "The type of user is not defined, and the scope of the story is unclear",
+      "Error paths and edge cases are not defined, such as 'The system should handle export failures by displaying an error message to the user'"
+    ],
+    "key_risks": [
+      "Unclear scope due to ambiguous terms such as 'standard format' and 'user', with a HIGH likelihood and MEDIUM impact, requiring clarification of ambiguity by re-writing the story with specific definitions",
+      "Dependency on undefined system infrastructure for data export, with a MEDIUM likelihood and HIGH impact, requiring validation of infrastructure assumptions and confirmation of necessary system resources",
+      "Integration points with unknown or unvalidated data export APIs, with a MEDIUM likelihood and HIGH impact, requiring research and validation of data export APIs and integration with error handling mechanisms"
+    ],
+    "immediate_actions": [
+      "The Product Owner must re-write the user story to address the identified blockers and clarify ambiguity",
+      "The Development Team must validate assumptions about system infrastructure and data export APIs",
+      "The QA Team must develop clear test cases for the data export feature, including error paths and edge cases"
+    ],
+    "tpm_summary": "The Export User Data story is not ready for sprint planning due to high ambiguity and significant delivery, technical, and business risks. The story requires clarification of ambiguity, validation of assumptions, and prioritization of thorough testing and validation. The Product Owner must re-write the story to address the identified blockers and clarify ambiguity before the story can enter the sprint."
+  }
+]
