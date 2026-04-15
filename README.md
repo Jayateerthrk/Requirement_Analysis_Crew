@@ -462,3 +462,8 @@ When all crews are built, a TPM super-crew orchestrates all of them.
 - Story text is sent to Groq's API. No other data leaves your machine.
 - .env and secrets.toml are gitignored. Never commit them.
 - output/ folder is gitignored. Reports stay local.
+
+
+### Output
+<img width="1296" height="659" alt="Requirmements_Crew_AgentOutput" src="https://github.com/user-attachments/assets/a54078c4-8c4d-4a0d-9429-10b6574c10fd" />
+<img width="1281" height="663" alt="Requirmements_Crew_Fileupload" src="https://github.com/user-attachments/assets/d70bc35e-878f-4c92-9da1-a7bbe9326caa" />
